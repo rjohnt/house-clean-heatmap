@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>House Cleaning Heatmap</title>
+  <meta name="theme-color" content="#0f766e" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🏠 House Cleaning Heatmap</h1>
+    <p>Auto-refreshes from tracker data. Update room status and this map updates after sync.</p>
+    <p id="updatedAt" class="muted"></p>
+  </header>
+
+  <main class="layout">
+    <section class="card">
+      <h2>Floor Plan</h2>
+      <div class="legend">
+        <span><i class="dot g"></i>&lt;24h</span>
+        <span><i class="dot y"></i>1–3d</span>
+        <span><i class="dot o"></i>3–7d</span>
+        <span><i class="dot r"></i>7+d</span>
+        <span><i class="dot n"></i>Never</span>
+      </div>
+      <div class="plan-wrap" id="planWrap">
+        <img src="assets/floorplan.jpg" alt="House floor plan" class="plan" />
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Room Status</h2>
+      <div id="roomList" class="room-list"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

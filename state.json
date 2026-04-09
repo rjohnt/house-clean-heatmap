@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "updated_at": "2026-04-08T20:39:12-05:00",
+  "rooms": [
+    {
+      "name": "Living Room",
+      "last_cleaned_at": null,
+      "last_clean_note": null,
+      "clean_count": 0
+    },
+    {
+      "name": "Kitchen",
+      "last_cleaned_at": null,
+      "last_clean_note": null,
+      "clean_count": 0
+    },
+    {
+      "name": "Rotunda",
+      "last_cleaned_at": null,
+      "last_clean_note": null,
+      "clean_count": 0
+    },
+    {
+      "name": "Dining Room",
+      "last_cleaned_at": null,
+      "last_clean_note": null,
+      "clean_count": 0
+    },
+    {
+      "name": "Hall Bathroom",
+      "last_cleaned_at": null,
+      "last_clean_note": null,
+      "clean_count": 0
+    },
+    {
+      "name": "Master Bathroom",
+      "last_cleaned_at": null,
+      "last_clean_note": null,
+      "clean_count": 0
+    },
+    {
+      "name": "Bedroom 1",
+      "last_cleaned_at": null,
+      "last_clean_note": null,
+      "clean_count": 0
+    },
+    {
+      "name": "Bedroom 2",
+      "last_cleaned_at": null,
+      "last_clean_note": null,
+      "clean_count": 0
+    },
+    {
+      "name": "Office",
+      "last_cleaned_at": null,
+      "last_clean_note": null,
+      "clean_count": 0
+    },
+    {
+      "name": "Laundry Room",
+      "last_cleaned_at": null,
+      "last_clean_note": null,
+      "clean_count": 0
+    }
+  ]
+}
