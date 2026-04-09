@@ -11,8 +11,14 @@ header p{margin:2px 0;opacity:.95}
 .dot.g{background:#22c55e}.dot.y{background:#eab308}.dot.o{background:#f97316}.dot.r{background:#ef4444}.dot.n{background:#9ca3af}
 .plan-wrap{position:relative;width:100%;overflow:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff}
 .plan{display:block;max-width:100%;height:auto}
-.marker{position:absolute;transform:translate(-50%,-50%);padding:3px 6px;border-radius:6px;font-size:.72rem;font-weight:700;color:#111;border:1px solid #0002;white-space:nowrap;box-shadow:0 1px 4px rgba(0,0,0,.15)}
-.marker.g{background:#86efac}.marker.y{background:#fde047}.marker.o{background:#fdba74}.marker.r{background:#fca5a5}.marker.n{background:#d1d5db}
+.room-overlay{position:absolute;inset:0;width:100%;height:100%}
+.room-zone{stroke:#111;stroke-width:.35;fill:#9ca3af80;transition:fill .2s ease,opacity .2s ease}
+.room-zone:hover{opacity:.85}
+.room-zone.g{fill:#22c55e75}
+.room-zone.y{fill:#eab30875}
+.room-zone.o{fill:#f9731675}
+.room-zone.r{fill:#ef444475}
+.room-zone.n{fill:#9ca3af80}
 .room-list{display:grid;gap:8px}
 .room{border:1px solid #e5e7eb;border-radius:8px;padding:8px}
 .room .name{font-weight:700}
